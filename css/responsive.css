@@ -1,0 +1,172 @@
+@media(max-width: 1200px) {
+	.social .social-list {
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+
+	.social .social-item:nth-child(2) {
+		margin-left: 50px;
+	}
+
+	.social .social-item:nth-child(3) {
+		margin-top: 50px;
+	}
+
+	.we-text {
+		margin-top: 0px;
+	}
+
+	.we-link {
+		margin-top: 0px;
+	}
+
+	.are-subtext {
+		width: 300px;
+	}
+}
+
+@media (max-width: 995px) {
+	.nav-item {
+		margin-right: 0;
+	}
+
+	.login {
+		flex-direction: column;
+	}
+
+	.header .container {
+		flex-direction: column-reverse;
+	}
+
+	.we .container {
+		padding: 50px 0px;
+	}
+
+	.we-item {
+		flex-direction: column;
+	}
+
+	.we-item:nth-child(2) {
+		flex-direction: column;
+	}
+
+
+	.we-image {
+		width: 500px;
+	}
+
+	.text-we {
+		width: 100%;
+	}
+
+	.text-section-are {
+		flex-direction: column;
+		align-items: center !important;
+	}
+
+	.are-subtext {
+		width: 100%;
+	}
+
+	.footer-meco {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+
+@media(max-width: 768px) {
+	.social .social-item:nth-child(2) {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+
+	.we-image {
+		width: 400px;
+	}
+
+	.text-section-are {
+		padding: 50px;
+	}
+
+	.are-input-group {
+		width: 100%;
+	}
+}
+
+@media(max-width: 700px) {
+	.the .container {
+		justify-content: center !important;
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+
+	.the-title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-row {
+		padding: 50px 0px;
+	}
+}
+
+@media(max-width: 635px) {
+	.build-title {
+		width: 400px;
+	}
+
+	.build-text {
+		width: 350px;
+	}
+
+	.header-image {
+		width: 400px;
+	}
+
+	.text-we {
+		width: 400px;
+	}
+}
+
+@media(max-width: 450px) {
+	.build-title {
+		width: 100%;
+	}
+
+	.build-text {
+		width: 80%;
+	}
+
+	.header-image {
+		width: 100%;
+	}
+
+	.we-image {
+		width: 100%;
+	}
+
+	.text-we {
+		width: 100%;
+	}
+}
+
+@media(max-width: 400px) {
+	.social .social-item {
+		width: 100%;
+	}
+
+	.social-text {
+		width: 100% !important;
+	}
+
+	.footer-meco {
+		width: 100% !important;
+	}
+
+	.footer-links {
+		width: 100% !important;
+	}
+}
